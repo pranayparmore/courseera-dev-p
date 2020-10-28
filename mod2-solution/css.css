@@ -1,21 +1,10 @@
 h1 {
 	text-align: center;
 }
-@media (min-width: 1200px) 
-{ #box1{ width: 400px; }
-#box3{ width: 400px;}
-#box5{ width: 400px; }
-}
-
-@media (min-width: 991px) 
-{ #box1{ width: 400px; }
-#box3{ width: 400px;}
-#box5{ width: 800px; }
-}
 
 #box1 {
 	background-color: #888888;
-	width: 400px;
+	width: 30%;
 	float: left;
 	border: 3px solid black;
 	margin-right: 20px;
@@ -41,7 +30,7 @@ h1 {
 }
 #box3 {
 	background-color: #888888;
-	width: 400px;
+	width: 30%;
 	float: left;
 	border: 3px solid black;
 	margin-right: 20px;
@@ -66,7 +55,7 @@ h1 {
 }
 #box5 {
 	background-color: #888888;
-	width: 400px;
+	width: 30%;
 	float: left;
 	border: 3px solid black;
     margin-right: 20px;
