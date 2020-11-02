@@ -9,6 +9,32 @@ h1{
 body{
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
+}
+
+.row{
+    width: 100%;
+}
+
+.box{
+    border: 3px solid black;
+    position : relative;
+    width: 1;
+    margin : 10px;
+    background-color: #CCC;
+}
+
+.content{
+   text-align: left;
+   padding: 10px;
+   font-weight: 16px;
+}
+
+#chicken{
+    border : 2px solid black;
+    width : 20%;
+	margin-left: 80%;
+=======
 }
 
 .row{
@@ -45,10 +71,33 @@ body{
     border : 2px solid black;
     width : 20%;
     margin-left: 80%;
+>>>>>>> 199934a4b3d5f3424c0455cdbf0c4439747e26bf
     float:right;
 	margin-right: -3px;
     margin-top: -3px;
     text-align: center;
+<<<<<<< HEAD
+    background-color: pink;
+    font-weight: bolder;
+}
+
+#beef{
+=======
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+}
+
+#sushi{
+>>>>>>> 199934a4b3d5f3424c0455cdbf0c4439747e26bf
+    border : 2px solid black;
+    width : 20%;
+    margin-left: 80%;
+    float:right;
+	margin-right: -3px;
+    margin-top: -3px;
+    text-align: center;
+<<<<<<< HEAD
     background-color: red;
     color: white;
     font-weight: bolder;
@@ -69,6 +118,14 @@ body{
 @media(min-width: 992px){
     .col-lg-4{
         width : 33.33%;
+=======
+    background-color: Yellow;
+    font-weight: bolder;
+}
+
+@media(min-width: 992px){
+    .col-lg-4{
+        width : 33.33%;
         float : left;
     }
 }
@@ -81,9 +138,28 @@ body{
 
     .col-md-12{
         width : 100%;
+>>>>>>> 199934a4b3d5f3424c0455cdbf0c4439747e26bf
         float : left;
     }
 }
+
+<<<<<<< HEAD
+@media(min-width: 768px) and (max-width : 991px){
+    .col-md-6{
+        width : 50%;
+        float : left;
+    }
+
+    .col-md-12{
+=======
+@media(max-width: 767px){
+    .col-sm-12{
+>>>>>>> 199934a4b3d5f3424c0455cdbf0c4439747e26bf
+        width : 100%;
+        float : left;
+    }
+}
+<<<<<<< HEAD
 
 @media(max-width: 767px){
     .col-sm-12{
@@ -91,3 +167,5 @@ body{
         float : left;
     }
 }
+=======
+>>>>>>> 199934a4b3d5f3424c0455cdbf0c4439747e26bf
